@@ -5,7 +5,7 @@ import cookieParser from 'cookie-parser';
 const app = express();
 
 const allowedOrigins = [
-    "https://jobfinder-0pj0.onrender.com/api/v1",// Production frontend
+    "https://job-finder-bice-psi.vercel.app",// Production frontend
     "http://localhost:5173", // Local development
 ];
 
