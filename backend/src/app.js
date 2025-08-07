@@ -5,9 +5,8 @@ import cookieParser from 'cookie-parser';
 const app = express();
 
 const allowedOrigins = [
-    "",// Production frontend
+    "https://jobfinder-0pj0.onrender.com/api/v1",// Production frontend
     "http://localhost:5173", // Local development
-
 ];
 
 app.use(cors({
